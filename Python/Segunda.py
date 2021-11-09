@@ -29,9 +29,31 @@ print(x)
  """
 #diccionarios
 
-x={"id":1,"nombre":"Juan"}
+""" x={"id":1,"nombre":"Juan"}
 y={"id":2,"nombre":"Pablo"}
 w=[x,y]
 print(x["nombre"])
 for i in w:
-    print(i["nombre"])
+    print(i["nombre"]) """
+
+#Condicionales
+x=[0,1,2,3,4,5,9,1]
+#x=3
+
+while True:
+    y=int(input())
+    if y==1:
+        print(x)
+    elif y==2:
+        print(y)
+    elif y==3:
+        print("3")
+        break
+    elif y==4:
+        print("4")
+        break
+    else:
+        print("default")
+    u=str(input())
+    if u=="no":
+        break

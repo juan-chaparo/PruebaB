@@ -1,3 +1,5 @@
+from Tercera import tercer
+from Cuarta import cj
 x=5.1
 #print(x)
 x+=1
@@ -14,3 +16,8 @@ j="hola mundo"
     print(i) """
 if "i" in j:
     print("o")
+
+print(tercer(5))
+
+print(cj.jc())
+print(cj.lo())
